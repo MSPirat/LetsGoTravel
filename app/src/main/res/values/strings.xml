@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">LetsGoTravel</string>
+    <string name="header_title">Пора в путешествие</string>
+    <string name="sort_text">Сортировка</string>
+    <string name="filter_text">Фильтр</string>
+    <string name="map_text">Карта</string>
 </resources>

@@ -1,5 +1,7 @@
 package com.github.mspirat
 
+//TODO if not needed delete adapter & models from main project directory
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
