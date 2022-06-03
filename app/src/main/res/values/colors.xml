@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="mainScreenBgColor">#FFECB3</color>
     <color name="topMainScreenColor">#FFE082</color>
+    <color name="mainScreenColorButton">#FFD54F</color>
 </resources>

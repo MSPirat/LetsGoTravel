@@ -25,13 +25,15 @@
             android:text="@string/header_title"
             android:textColor="@color/black"
             android:textSize="30sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/button_field_main_screen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -43,26 +45,32 @@
         <Button
             android:id="@+id/sort_button_main_screen"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/mainScreenColorButton"
             android:fontFamily="@font/montserrat_medium"
             android:text="@string/sort_text"
+            android:textColor="@color/black"
             android:textSize="12sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintEnd_toStartOf="@id/filter_button_main_screen"
+            app:layout_constraintStart_toStartOf="parent" />
 
         <Button
             android:id="@+id/filter_button_main_screen"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/mainScreenColorButton"
             android:fontFamily="@font/montserrat_medium"
             android:text="@string/filter_text"
+            android:textColor="@color/black"
             android:textSize="12sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/map_button_main_screen"
             app:layout_constraintStart_toEndOf="@+id/sort_button_main_screen"
@@ -71,17 +79,50 @@
         <Button
             android:id="@+id/map_button_main_screen"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/mainScreenColorButton"
             android:fontFamily="@font/montserrat_medium"
             android:text="@string/map_text"
+            android:textColor="@color/black"
             android:textSize="12sp"
+            android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toEndOf="@id/filter_button_main_screen" />
 
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:fillViewport="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_field_main_screen">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/second_activity_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
 
 
     <!--
