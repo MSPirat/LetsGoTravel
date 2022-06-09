@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пора в путешествие</string>
+    <string name="header_title">Пора в путешествие</string>
+    <string name="sort_text">Сортировка</string>
+    <string name="filter_text">Фильтр</string>
+    <string name="map_text">Карта</string>
+    <string name="go_to_next_screen">Следующий экран</string>
+</resources>
