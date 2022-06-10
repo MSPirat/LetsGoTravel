@@ -8,7 +8,7 @@
     tools:context=".SecondActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/top_field_main_screen"
+        android:id="@+id/topFieldMainScreen"
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:background="@color/topMainScreenColor"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/top_field_main_text"
+            android:id="@+id/topFieldMainText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_black"
@@ -33,17 +33,17 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/button_field_main_screen"
+        android:id="@+id/buttonFieldMainScreen"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/top_field_main_screen">
+        app:layout_constraintTop_toBottomOf="@+id/topFieldMainScreen">
 
         <Button
-            android:id="@+id/sort_button_main_screen"
+            android:id="@+id/sortButtonMainScreen"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -55,12 +55,12 @@
             android:textSize="10sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@id/filter_button_main_screen"
+            app:layout_constraintEnd_toStartOf="@id/filterButtonMainScreen"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/filter_button_main_screen"
+            android:id="@+id/filterButtonMainScreen"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -73,12 +73,12 @@
             android:textSize="10sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toStartOf="@+id/map_button_main_screen"
-            app:layout_constraintStart_toEndOf="@+id/sort_button_main_screen"
+            app:layout_constraintEnd_toStartOf="@+id/mapButtonMainScreen"
+            app:layout_constraintStart_toEndOf="@+id/sortButtonMainScreen"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/map_button_main_screen"
+            android:id="@+id/mapButtonMainScreen"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="8dp"
@@ -91,7 +91,7 @@
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/filter_button_main_screen"
+            app:layout_constraintStart_toEndOf="@id/filterButtonMainScreen"
             app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -106,7 +106,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_field_main_screen">
+        app:layout_constraintTop_toBottomOf="@+id/buttonFieldMainScreen">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -124,7 +124,7 @@
                 tools:ignore="MissingConstraints" />
 
             <Button
-                android:id="@+id/next_screen_button"
+                android:id="@+id/nextScreenButton"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
@@ -146,7 +146,7 @@
                 android:textColor="@color/black"
                 android:textSize="14sp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toTopOf="@+id/next_screen_button"
+                app:layout_constraintBottom_toTopOf="@+id/nextScreenButton"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

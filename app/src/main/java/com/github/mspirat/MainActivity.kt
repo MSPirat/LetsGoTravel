@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Log.i("testlogs","in onCreate")
 
-        val secondScreenActivityBtn = findViewById<Button>(R.id.nextScreenBtn)
-        secondScreenActivityBtn.setOnClickListener(
+        val nextScreenActivityButton = findViewById<Button>(R.id.next)
+        nextScreenActivityButton.setOnClickListener(
             View.OnClickListener {
                 val intent = Intent(this, SecondActivity::class.java)
                 startActivity(intent)

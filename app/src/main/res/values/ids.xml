@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hi_textView" type="id">hiTextView</item>
+    <item name="log_or_reg_textView" type="id">logOrRegTextView</item>
+    <item name="next" type="id">next</item>
+    <item name="next_screen_button" type="id">nextScreenButton</item>
+</resources>

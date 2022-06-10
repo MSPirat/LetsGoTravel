@@ -4,7 +4,8 @@
     <string name="sort_text">Sort</string>
     <string name="filter_text">Filter</string>
     <string name="map_text">Map</string>
-    <string name="go_to_next_screen" translatable="false">Go no next Screen</string>
+    <string name="next">Next</string>
+    <string name="go_to_next_screen">Go no next Screen</string>
     <string name="hi_main_screen">Hi!!!</string>
     <string name="reg_log_main_screen">Please LogIn or Register now</string>
 
