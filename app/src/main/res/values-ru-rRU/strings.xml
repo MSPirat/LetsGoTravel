@@ -6,4 +6,6 @@
     <string name="filter_text">Фильтр</string>
     <string name="map_text">Карта</string>
     <string name="go_to_next_screen">Следующий экран</string>
+    <string name="hi_main_screen">Привет!!!</string>
+    <string name="reg_log_main_screen">Пожалуйста войди или зарегистрируйся</string>
 </resources>

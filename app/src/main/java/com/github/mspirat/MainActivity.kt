@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d("Test logs","in onCreate")
+        Log.i("testlogs","in onCreate")
 
         val secondScreenActivityBtn = findViewById<Button>(R.id.nextScreenBtn)
         secondScreenActivityBtn.setOnClickListener(

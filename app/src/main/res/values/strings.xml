@@ -4,7 +4,11 @@
     <string name="sort_text">Sort</string>
     <string name="filter_text">Filter</string>
     <string name="map_text">Map</string>
-    <string name="test_text_main_screen" translatable="false"><![CDATA[
+    <string name="go_to_next_screen" translatable="false">Go no next Screen</string>
+    <string name="hi_main_screen">Hi!!!</string>
+    <string name="reg_log_main_screen">Please LogIn or Register now</string>
+
+    <string name="test_text_of_screen" translatable="false"><![CDATA[
         «Девочке три, она едет у папы на шее…» \n
 \n
 Девочке три, она едет у папы на шее. \n
@@ -74,6 +78,5 @@
 Мальвина Матрасова
 \n
     ]]></string>
-    <string name="go_to_next_screen">Go no next Screen</string>
 
 </resources>
